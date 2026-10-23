@@ -53,6 +53,6 @@ flowchart LR
 4. **Prescription output:** the backend renders an A4 PDF to print or download.
 
 ## Environments
-- **Local:** docker-compose runs PostgreSQL, Redis, the backend, the extraction service and LocalStack (S3, SQS, DynamoDB).
+- **Local:** native processes from the contained `./env` folder: PostgreSQL, Redis, the backend and the extraction service, with moto standing in for S3, SQS and DynamoDB ([D-0007](decisions/0007-local-dev-environment.md), [development](development.md)).
 - **CI:** GitHub Actions runs linters, type checks, pytest against PostgreSQL, and Playwright, then builds the images.
 - **Cloud:** AWS Mumbai (ap-south-1), defined in Terraform. The hosting shape is decided at the first deployment ([roadmap](roadmap.md)).

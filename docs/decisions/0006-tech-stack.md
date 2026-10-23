@@ -1,7 +1,7 @@
 # D-0006: Tech stack
 
 - **Date:** 2026-10-23
-- **Status:** accepted
+- **Status:** accepted. The local-development part is superseded by [D-0007](0007-local-dev-environment.md).
 
 ## Context
 - OPDly needs:

@@ -18,6 +18,7 @@ OPDly runs in the browser and can be installed as an app.
 |---|---|
 | [Requirements](docs/requirements.md) | What version 1 does |
 | [Architecture](docs/architecture.md) | How the parts fit together |
+| [Development](docs/development.md) | Setting up the local environment |
 | [Design decisions](docs/decisions/README.md) | Decisions, the reasons for them, and the alternatives considered |
 | [Roadmap](docs/roadmap.md) | Phases, and the checklist that must be done before real patient data goes in |
 | [Ideas](docs/ideas.md) | Features under consideration, not yet planned |

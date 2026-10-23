@@ -1,0 +1,10 @@
+# Tools for the local development environment, installed into ./env/tools
+# by scripts/bootstrap-env.sh. Python itself is managed by uv (.python-version).
+name: opdly-tools
+channels:
+  - conda-forge
+dependencies:
+  - nodejs=24
+  - postgresql=17
+  - redis-server
+  - uv
